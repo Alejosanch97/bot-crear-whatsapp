@@ -1,0 +1,21 @@
+{
+  "_ayuda": "Salidas pedagógicas. Si no hay ninguna con \"activo\": true, el bot responde 'sin_salidas'. Copia el bloque de ejemplo para agregar más. Los campos vacíos no se muestran.",
+
+  "introduccion": "🚌 *Salidas pedagógicas programadas*",
+  "pie": "💳 Los pagos se reciben en secretaría. Para dudas toca *Atención humana*.",
+  "sin_salidas": "🚌 Por ahora no hay salidas pedagógicas programadas para este mes o periodo. Te avisaremos por aquí cuando haya una nueva.",
+
+  "salidas": [
+    {
+      "titulo": "[EDITAR] Visita al Jardín Botánico",
+      "fecha": "[EDITAR] Viernes 20 de marzo",
+      "lugar": "[EDITAR] Jardín Botánico de Bogotá",
+      "grados": "[EDITAR] Tercero y cuarto",
+      "costo": "[EDITAR] $00.000",
+      "incluye": "[EDITAR] Transporte, entrada y refrigerio",
+      "fecha_limite_pago": "[EDITAR] Lunes 16 de marzo",
+      "nota": "",
+      "activo": false
+    }
+  ]
+}

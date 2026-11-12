@@ -1,0 +1,67 @@
+{
+  "_ayuda": "Textos generales del bot. Puedes cambiar cualquier texto. En 'menu' NO cambies los 'id' (el código los usa); sí puedes cambiar títulos, descripciones, el orden, o apagar una opción con \"activo\": false. Límites de WhatsApp: título de opción 24 caracteres, descripción 72, botones 20. *texto* = negrita, _texto_ = cursiva, \\n = salto de línea. Después de editar corre: python revisar_contenido.py",
+
+  "encabezado": "Instituto Pedagógico CREAR",
+  "saludo": "¡Hola! 👋 Bienvenido al canal de atención de *CREAR*.\n\nSoy el asistente virtual del colegio: te doy información y te ayudo con trámites rápidos. Toca *Ver opciones* para empezar.",
+  "pie": "Escribe *menú* para volver al inicio",
+  "titulo_menu": "¿En qué te ayudamos?",
+
+  "menu": [
+    { "id": "admisiones",     "titulo": "🎓 Admisiones",          "descripcion": "Cupos disponibles y pasos para inscribirte" },
+    { "id": "cursos",         "titulo": "🎨 Cursos",              "descripcion": "Danzas, música, inglés, fútbol y más: horarios y costos" },
+    { "id": "salidas",        "titulo": "🚌 Salidas pedagógicas", "descripcion": "Próximas salidas, lugares y costos" },
+    { "id": "informacion",    "titulo": "📢 Avisos importantes",  "descripcion": "Calendario, uniformes y otra información del colegio" },
+    { "id": "certificados",   "titulo": "📄 Certificados",        "descripcion": "Tipos, valores y solicitud" },
+    { "id": "almuerzo",       "titulo": "🍽️ Almuerzo",            "descripcion": "Valor e inscripción del almuerzo" },
+    { "id": "entrada_salida", "titulo": "🕗 Llegadas y salidas",  "descripcion": "Avisa si tu hijo/a llega tarde o sale temprano" },
+    { "id": "humano",         "titulo": "🙋 Hablar con alguien", "descripcion": "Te atiende una persona del colegio" }
+  ],
+
+  "botones": {
+    "ver_menu": "Ver opciones",
+    "menu_principal": "🏠 Menú principal",
+    "humano": "🙋 Atención humana",
+    "confirmar": "✅ Confirmar",
+    "cancelar": "❌ Cancelar",
+    "elegir_grado": "Elegir grado",
+    "ver_mas": "➡️ Ver más",
+    "volver_inicio": "⬅️ Volver al inicio"
+  },
+
+  "textos": {
+    "elige_opcion": "¿Te ayudo con algo más?",
+    "pregunta_grado": "¿En qué grado está *{estudiante}*? Toca *Elegir grado* 👇",
+    "usa_la_lista": "Por favor elige el grado tocando el botón *Elegir grado* 👇",
+    "solo_texto": "Por ahora solo puedo leer mensajes de texto ✍️",
+    "confirmar_titulo": "📋 *Revisa los datos — {titulo}*",
+    "confirmar_pregunta": "¿Todo está correcto?",
+    "formulario_cancelado": "Listo, cancelé la solicitud. No se guardó nada."
+  },
+
+  "palabras_menu": ["menu", "menú", "inicio", "cancelar", "salir", "volver"],
+
+  "grados": [
+    "Prejardín", "Jardín", "Transición",
+    "Primero", "Segundo", "Tercero", "Cuarto", "Quinto",
+    "Sexto", "Séptimo", "Octavo", "Noveno", "Décimo", "Undécimo"
+  ],
+
+  "etiquetas": {
+    "estudiante": "Estudiante",
+    "grado": "Grado",
+    "hora": "Hora",
+    "motivo": "Motivo",
+    "recoge": "Quién recoge",
+    "dia": "Día",
+    "documento": "Documento",
+    "tipo": "Certificado",
+    "acudiente": "Acudiente"
+  },
+
+  "humano": {
+    "_ayuda": "numero: el WhatsApp principal del colegio, solo dígitos con 57 adelante (ej: 573001234567).",
+    "numero": "57XXXXXXXXXX",
+    "mensaje_prellenado": "Hola, vengo del menú de WhatsApp de CREAR",
+    "mensaje": "🙋 Con gusto te atiende una persona del colegio.\n\nEscríbenos aquí 👉 {enlace}\n\n🕗 Horario de atención: [EDITAR] lunes a viernes de 7:00 a.m. a 3:00 p.m."
+  }
+}

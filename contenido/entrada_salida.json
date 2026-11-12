@@ -1,0 +1,30 @@
+{
+  "_ayuda": "Llegadas tarde y salidas temprano. Cada aviso se guarda y te llega como notificación con el nombre, grado y hora.",
+
+  "informacion": "🕗 *Llegadas y salidas*\n\n🏫 Entrada: [EDITAR 6:45 a.m.]\n🏠 Salida: [EDITAR 3:00 p.m.]\n\nSi tu hijo/a va a llegar tarde o necesita salir antes, avísanos aquí y quedará registrado para portería y coordinación.",
+
+  "llegada_tarde": {
+    "boton": "⏰ Llegará tarde",
+    "titulo": "Aviso de llegada tarde",
+    "titulo_notificacion": "⏰ *Llegada tarde*",
+    "preguntas": {
+      "estudiante": "Escribe el *nombre completo del estudiante* ✍️",
+      "hora": "¿A qué hora llegará *{estudiante}*? (ej: 8:30 a.m.) 🕗",
+      "motivo": "¿Cuál es el motivo? Si prefieres no decirlo, escribe *no*."
+    },
+    "confirmacion": "✅ Registramos que *{estudiante}* llegará a las *{hora}*. ¡Gracias por avisar!"
+  },
+
+  "salida_temprana": {
+    "boton": "🏃 Saldrá temprano",
+    "titulo": "Aviso de salida temprano",
+    "titulo_notificacion": "🏃 *Salida temprano*",
+    "preguntas": {
+      "estudiante": "Escribe el *nombre completo del estudiante* ✍️",
+      "hora": "¿A qué hora saldrá *{estudiante}*? (ej: 11:00 a.m.) 🕗",
+      "recoge": "¿Quién recogerá a *{estudiante}*? Escribe nombre y parentesco 🪪",
+      "motivo": "¿Cuál es el motivo? Si prefieres no decirlo, escribe *no*."
+    },
+    "confirmacion": "✅ Registramos la salida de *{estudiante}* a las *{hora}*.\n\nRecuerda: lo/la recoge *{recoge}*, quien debe presentar su documento en portería."
+  }
+}

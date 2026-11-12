@@ -1,0 +1,48 @@
+{
+  "_ayuda": "Admisiones. Para actualizar cupos cambia el número 'cupos' de cada grado (0 = sin cupos). Los 'id' de los grados no se cambian. {grado} y {cupos_texto} se reemplazan solos. El PDF va en la carpeta static/ con el nombre de 'archivo' (o pon un enlace https completo).",
+
+  "bienvenida": "🎓 *¡Gracias por comunicarte con CREAR!*\n\nNos alegra que quieras ser parte de nuestra familia. Somos un colegio bilingüe que acompaña a cada estudiante con cercanía y altas expectativas.\n\nRecibimos estudiantes desde Prejardín hasta Noveno. Estos son los cupos disponibles para el año [EDITAR 2027] 👇",
+  "pregunta_grado": "¿Para qué grado buscas cupo? Toca *Ver grados* y elige uno 👇",
+  "boton_lista": "Ver grados",
+  "etiqueta_con_cupos": "✅ {cupos_texto}",
+  "etiqueta_sin_cupos": "❌ Sin cupos por ahora",
+
+  "grados": [
+    { "id": "prejardin",  "nombre": "Prejardín",  "cupos": 4 },
+    { "id": "jardin",     "nombre": "Jardín",     "cupos": 2 },
+    { "id": "transicion", "nombre": "Transición", "cupos": 0 },
+    { "id": "primero",    "nombre": "Primero",    "cupos": 3 },
+    { "id": "segundo",    "nombre": "Segundo",    "cupos": 1 },
+    { "id": "tercero",    "nombre": "Tercero",    "cupos": 0 },
+    { "id": "cuarto",     "nombre": "Cuarto",     "cupos": 2 },
+    { "id": "quinto",     "nombre": "Quinto",     "cupos": 0 },
+    { "id": "sexto",      "nombre": "Sexto",      "cupos": 3 },
+    { "id": "septimo",    "nombre": "Séptimo",    "cupos": 1 },
+    { "id": "octavo",     "nombre": "Octavo",     "cupos": 0 },
+    { "id": "noveno",     "nombre": "Noveno",     "cupos": 2 }
+  ],
+
+  "con_cupos": "✅ *¡Tenemos {cupos_texto} en {grado}!*\n\nEstos son los pasos para continuar con el proceso:\n\n*1.* Adquiere el *PIN de inscripción* en la secretaría del colegio. Valor: [EDITAR $00.000].\n*2.* Acércate a la institución con el PIN y los documentos que aparecen en el PDF adjunto.\n*3.* Agendamos la entrevista con la familia y la valoración del aspirante.\n*4.* Te confirmamos el resultado y los pasos de matrícula.\n\n📍 *Dirección:* [EDITAR]\n🕗 *Horario de atención:* [EDITAR]",
+
+  "pdf": {
+    "archivo": "admisiones.pdf",
+    "nombre_archivo": "Admisiones CREAR.pdf",
+    "mensaje": "📎 Aquí tienes toda la información del proceso de admisiones."
+  },
+
+  "cierre_con_cupos": "¿Tienes más preguntas sobre el proceso? Con gusto te atiende alguien de admisiones.",
+
+  "sin_cupos": "Por ahora no tenemos cupos disponibles en *{grado}* 😔\n\nPuedes dejar tus datos en la *lista de espera* y te escribimos apenas se libere un cupo.",
+
+  "lista_espera": {
+    "activo": true,
+    "boton": "📝 Lista de espera",
+    "titulo": "Lista de espera",
+    "titulo_notificacion": "📝 *Nueva solicitud — Lista de espera*",
+    "preguntas": {
+      "acudiente": "Escribe tu *nombre completo* (padre, madre o acudiente) ✍️",
+      "estudiante": "Ahora escribe el *nombre completo del aspirante* ✍️"
+    },
+    "confirmacion": "✅ ¡Listo! *{estudiante}* quedó en la lista de espera para *{grado}*. Te escribiremos apenas haya un cupo."
+  }
+}

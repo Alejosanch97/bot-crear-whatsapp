@@ -1,0 +1,113 @@
+{
+  "_ayuda": "Cursos extracurriculares. 'aviso_mes' aparece antes de la lista; déjalo en \"\" si no hay aviso. Ejemplo: \"🏖️ Por vacaciones, este mes los cursos cuestan la mitad porque no se dictan todas las clases.\" Para un curso que no tiene clases este mes pon \"activo\": false (y opcional 'mensaje_inactivo'). Los campos vacíos no se muestran.",
+
+  "aviso_mes": "",
+  "introduccion": "🎨 *Cursos extracurriculares CREAR*\n\nElige un curso para ver horario, costo y a quién va dirigido 👇",
+  "boton_lista": "Ver cursos",
+  "etiqueta_inactivo": "⏸️ Sin clases este mes",
+  "mensaje_inactivo": "⏸️ Este mes no hay clases de *{curso}*. Te avisaremos por aquí cuando se reanuden.",
+  "pie_curso": "📝 Para inscribirte, acércate a secretaría o toca *Atención humana*.",
+  "sin_cursos": "Por ahora no tenemos cursos abiertos. ¡Pronto te contamos las novedades!",
+
+  "cursos": [
+    {
+      "id": "danzas",
+      "nombre": "Danzas",
+      "descripcion_corta": "Expresión corporal y ritmo",
+      "descripcion": "[EDITAR] Ritmos folclóricos y modernos para desarrollar coordinación y confianza.",
+      "dirigido_a": "[EDITAR] Primero a noveno",
+      "horario": "[EDITAR] Martes y jueves, 3:00 – 4:30 p.m.",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "musica",
+      "nombre": "Música",
+      "descripcion_corta": "Instrumentos y canto",
+      "descripcion": "[EDITAR] Iniciación musical, instrumento y canto.",
+      "dirigido_a": "[EDITAR]",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "programacion",
+      "nombre": "Programación",
+      "descripcion_corta": "Lógica, robótica y creación digital",
+      "descripcion": "[EDITAR] Aprenden a programar creando juegos y proyectos.",
+      "dirigido_a": "[EDITAR]",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "frances",
+      "nombre": "Francés",
+      "descripcion_corta": "Tercer idioma desde lo básico",
+      "descripcion": "[EDITAR]",
+      "dirigido_a": "[EDITAR]",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "tareas_primaria",
+      "nombre": "Asesoría tareas primaria",
+      "descripcion_corta": "Acompañamiento de tareas después de clase",
+      "descripcion": "[EDITAR]",
+      "dirigido_a": "Primero a quinto",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "asesoria_preescolar",
+      "nombre": "Asesoría preescolar",
+      "descripcion_corta": "Acompañamiento para los más pequeños",
+      "descripcion": "[EDITAR]",
+      "dirigido_a": "Prejardín, Jardín y Transición",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "ingles",
+      "nombre": "Inglés",
+      "descripcion_corta": "Refuerzo y conversación",
+      "descripcion": "[EDITAR]",
+      "dirigido_a": "[EDITAR]",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "futbol",
+      "nombre": "Fútbol",
+      "descripcion_corta": "Escuela deportiva",
+      "descripcion": "[EDITAR]",
+      "dirigido_a": "[EDITAR]",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    },
+    {
+      "id": "crearte",
+      "nombre": "CREARTE",
+      "descripcion_corta": "Artes plásticas y creatividad",
+      "descripcion": "[EDITAR]",
+      "dirigido_a": "[EDITAR]",
+      "horario": "[EDITAR]",
+      "costo": "[EDITAR] $00.000 mensuales",
+      "nota": "",
+      "activo": true
+    }
+  ]
+}

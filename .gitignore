@@ -1,0 +1,14 @@
+# Secretos
+.env
+
+# Entorno virtual de Python
+venv/
+.venv/
+
+# Registros locales (en producción van a Supabase)
+data/
+
+# Archivos de Python y del sistema
+__pycache__/
+*.pyc
+.DS_Store

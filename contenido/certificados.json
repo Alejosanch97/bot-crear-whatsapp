@@ -1,0 +1,59 @@
+{
+  "_ayuda": "Certificados. Cada uno aparece en la lista con su precio. Al solicitarlo, el bot pide nombre, documento y grado, lo guarda y te avisa. Estos registros son la entrada de la futura plataforma de certificados.",
+
+  "introduccion": "📄 *Certificados*\n\nElige el certificado que necesitas para ver su valor y solicitarlo 👇",
+  "boton_lista": "Ver certificados",
+  "pie_detalle": "Puedes solicitarlo aquí mismo 👇",
+  "sin_certificados": "Por ahora no estamos recibiendo solicitudes de certificados por este medio. Toca *Atención humana*.",
+
+  "certificados": [
+    {
+      "id": "estudio",
+      "nombre": "Certificado de estudio",
+      "precio": "[EDITAR] $00.000",
+      "tiempo_entrega": "[EDITAR] 2 días hábiles",
+      "descripcion": "Certifica que el estudiante está matriculado en el colegio.",
+      "requisitos": "",
+      "activo": true
+    },
+    {
+      "id": "notas",
+      "nombre": "Certificado de notas",
+      "precio": "[EDITAR] $00.000",
+      "tiempo_entrega": "[EDITAR] 3 días hábiles",
+      "descripcion": "Calificaciones de uno o varios años cursados.",
+      "requisitos": "",
+      "activo": true
+    },
+    {
+      "id": "paz_y_salvo",
+      "nombre": "Paz y salvo",
+      "precio": "[EDITAR] $00.000",
+      "tiempo_entrega": "[EDITAR] 1 día hábil",
+      "descripcion": "Certifica que la familia está al día con el colegio.",
+      "requisitos": "Estar al día en pagos.",
+      "activo": true
+    },
+    {
+      "id": "conducta",
+      "nombre": "Certificado de conducta",
+      "precio": "[EDITAR] $00.000",
+      "tiempo_entrega": "[EDITAR] 3 días hábiles",
+      "descripcion": "Comportamiento y convivencia del estudiante.",
+      "requisitos": "",
+      "activo": true
+    }
+  ],
+
+  "formulario": {
+    "boton_solicitar": "📝 Solicitar",
+    "titulo": "Solicitud de certificado",
+    "titulo_notificacion": "📄 *Nueva solicitud — Certificado*",
+    "introduccion": "Perfecto, vamos a solicitar el *{tipo}*.",
+    "preguntas": {
+      "estudiante": "Escribe el *nombre completo del estudiante* ✍️",
+      "documento": "Escribe el *número de documento* del estudiante (TI o RC) 🪪"
+    },
+    "confirmacion": "✅ Recibimos tu solicitud de *{tipo}* para *{estudiante}*.\n\nSecretaría te avisará cuando esté listo. El valor se paga al recogerlo."
+  }
+}
